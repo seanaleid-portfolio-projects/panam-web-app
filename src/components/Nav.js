@@ -6,60 +6,74 @@ import styled from "styled-components";
 import Menus from "./Menus.js";
 import Phone from "../icons/Phone.js";
 import Home from "../icons/Home.js";
-import Envelope from "../icons/Facebook.js";
-import Facebook from "../icons/Envelope.js";
+import Facebook from "../icons/Facebook.js";
+import Envelope from "../icons/Envelope.js";
+
+const Background = styled.div`
+    
+`;
 
 const Bar = styled.div`
     display: flex;
     justify-content: space-between;
-    align-items; center;
+    background-color: rgba(46, 49, 49, 1);
 `;
 
 const Left = styled.div`
     display: inherit;
-    align-items; inherit;
+    align-items: center;
     margin-left: 2rem;
 `;
 
 const Right = styled.div`
     display: inherit;
+    margin-right: 2rem;
 `;
 
 const Text = styled.h4`
     margin-left: inherit;
+    margin-right: 1rem;
     justify-content: inherit;
+    color: rgba(236, 236, 236, 1);
 `;
 
 const Circle = styled.div`
     display: flex;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
     border-radius: 2rem;
-    background-color: red;
+    background-color:rgba(236, 236, 236, 0.5);
+    :hover {
+        background-color:rgba(236, 236, 236, 1);
+        fill: rgba(38, 106, 216, 1);
+    }
 `;
 
 const Nav = () => {
     return (
-        <div>
+        <Background>
             <Bar>
                 <Left>
-                    <Text><Home />3051 Nutley St, Fairfax, VA 22031</Text>
-                    <Text><Phone /> (703) 560-9322</Text>
+                    <Home />
+                    <Text>3051 Nutley St, Fairfax, VA 22031</Text>
+                    <Text> | </Text>
+                    <Phone />
+                    <Text>(703) 560-9322</Text>
                 </Left>
                 <Right>
                     <Circle>
-                        <Envelope />
+                        <a href='mailto:test@gmail.com'><Envelope /></a>
                     </Circle>
                     <Circle>
-                        <Facebook />
+                        <a href='https://www.facebook.com/Pan-AM-Family-Restaurant-Inc-111595428879650/'><Facebook /></a>
                     </Circle>
                 </Right>
             </Bar>
             <Link to="/menus">
                 <Menus />
             </Link>
-        </div>
+        </Background>
     )
 }
 
