@@ -126,7 +126,7 @@ const Footer = () => {
                 <Box>
                     <IconBox>
                         <Circle style={{ "color": "black"}}>
-                            <a href='https://www.google.com/maps/place/3051+Nutley+St,+Fairfax,+VA+22031/@38.8707361,-77.263134,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64b8a8b8d7f89:0xc7c7246eebcb198f!8m2!3d38.8707361!4d-77.2609453' target='_blank' title='View on Google Maps'><Home /></a>
+                            <a href='https://www.google.com/maps/place/3051+Nutley+St,+Fairfax,+VA+22031/@38.8707361,-77.263134,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64b8a8b8d7f89:0xc7c7246eebcb198f!8m2!3d38.8707361!4d-77.2609453' target='_blank' rel="noopener noreferrer"  title='View on Google Maps'><Home /></a>
                         </Circle>
                         <Circle>
                             <a href='tel:+1-703-560-9322' title='Give us a call!'><Phone /></a>
