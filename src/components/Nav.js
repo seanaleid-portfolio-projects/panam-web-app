@@ -43,10 +43,9 @@ const Circle = styled.div`
     margin: 0.8rem;
     padding: 0.5rem;
     border-radius: 2rem;
-    background-color:rgba(236, 236, 236, 0.5);
+    background-color:rgba(38, 106, 216, 0.5);
     :hover {
-        background-color:rgba(236, 236, 236, 1);
-        fill: rgba(38, 106, 216, 1);
+        background-color:rgba(38, 106, 216, 1);
     }
 `;
 
@@ -63,10 +62,10 @@ const Nav = () => {
                 </Left>
                 <Right>
                     <Circle>
-                        <a href='mailto:test@gmail.com'><Envelope /></a>
+                        <a href='mailto:test@gmail.com' title='Send us an email'><Envelope /></a>
                     </Circle>
                     <Circle>
-                        <a href='https://www.facebook.com/Pan-AM-Family-Restaurant-Inc-111595428879650/'><Facebook /></a>
+                        <a href='https://www.facebook.com/Pan-AM-Family-Restaurant-Inc-111595428879650/' title='Visit us on Facebook'><Facebook /></a>
                     </Circle>
                 </Right>
             </Bar>
