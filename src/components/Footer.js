@@ -1,10 +1,117 @@
 import React from "react";
 
+import styled from "styled-components";
+
+const Container = styled.div`
+
+`;
+
+const Top = styled.div`
+    background-color: rgba(46, 49, 49, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+`;
+
+const BigText = styled.h2`
+    color: rgba(236, 236, 236, 1);
+    font-size: 2rem;
+`;
+
+const SmallText = styled.h4`
+    color: rgba(236, 236, 236, 1);
+    font-style: italic;
+    font-weight: 300;
+`;
+
+const Form = styled.form`
+    display: inherit;
+    align-items: inherit;
+`;
+
+const Input = styled.input`
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    margin-right: 2rem;
+`;
+
+const Button = styled.button`
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background-color: rgba(38, 106, 216, 1);
+    border: none;
+    :hover {
+        color: rgba(236, 236, 236, 1); 
+    }
+`;
+
+const Bottom = styled.div`
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+`;
+
+const Box = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+`;
+
+const BigColorText = styled.h2`
+    color: rgba(38, 106, 216, 1);
+    font-size: 2rem;
+    margin-left: 0.3rem;
+`;
+
+const SmallColorText = styled.h4`
+    color: rgba(46, 49, 49, 1);
+    font-style: italic;
+    font-weight: 300;
+    margin: 0.3rem;
+`;
+
+const Tag = styled.a`
+    text-decoration: none;
+    color: rgba(46, 49, 49, 1);
+    :hover {
+        color: rgba(38, 106, 216, 1);
+    }
+`;
+
 const Footer = () => {
     return (
-        <div>
-            <h1>Hellos from Footer.js</h1>
-        </div>
+        <Container>
+            <Top>
+                <BigText>Join The Party</BigText>
+                <SmallText>Stay up to date! Receive our news and promotions in your inbox.</SmallText>
+                <Form>
+                    <Input type="text" placeholder="Enter Your Email" />
+                    <Button>JOIN</Button>
+                </Form>
+            </Top>
+            <Bottom>
+                <Box>
+                    <BigColorText>Hours</BigColorText>
+                    <SmallColorText>Monday - Wednesday 11am - 8pm</SmallColorText>
+                    <SmallColorText>Thursday - Friday 11am - 9pm</SmallColorText>
+                    <SmallColorText>Saturday 9am - 9pm</SmallColorText>
+                    <SmallColorText>Sunday 9am - 8pm</SmallColorText>
+                </Box>
+                <Box>
+                    <BigColorText>Gift Cards</BigColorText>
+                </Box>
+                <Box>
+                    <BigColorText>Hours</BigColorText>
+                    <SmallColorText>&copy; Panam Family Restaurant 2020</SmallColorText>
+                    <SmallColorText>All rights reserved.</SmallColorText>
+                    
+                    <SmallColorText>Icons by <Tag href='https://fontawesome.com/'>Font Awesome</Tag> and <Tag href='https://fontawesome.com/license'>license used.</Tag></SmallColorText>
+                    <SmallColorText>Website by <Tag href='https://www.seanaleid.com/'>Sean Naleid</Tag></SmallColorText>
+                </Box>
+            </Bottom>
+        </Container>
     )
 }
 
