@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -19,6 +19,11 @@ const Bar = styled.h2`
     color: rgba(236, 236, 236, 1);
 `;
 
+const StyledLinkSmall = styled(Link)`
+    text-decoration: none;
+    color: rgba(46, 49, 49, 1);
+`;
+
 const Menus = () => {
     return (
         <Container>
@@ -26,13 +31,8 @@ const Menus = () => {
                 <Bar>Breakfast</Bar>
                 <h2>Test</h2>
             </BreakfastMenu>
-            <Route exact path="/main-menu">
-
-            </Route>
-
-            <Route exact path="/breakfast-menu">
-
-            </Route>
+            <StyledLinkSmall to="/main-menu">Main Menu</StyledLinkSmall>
+            <StyledLinkSmall to="/breakfast-menu">Breakfast Menu</StyledLinkSmall>
         </Container>
     )
 }
