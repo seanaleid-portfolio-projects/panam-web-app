@@ -8,7 +8,7 @@ import Facebook from "../icons/Facebook.js";
 import Envelope from "../icons/Envelope.js";
 
 const Container = styled.div`
-
+    margin-bottom: 2rem;
 `;
 
 const Top = styled.div`
@@ -120,9 +120,7 @@ const Footer = () => {
                     <SmallColorText>Saturday 9am - 9pm</SmallColorText>
                     <SmallColorText>Sunday 9am - 8pm</SmallColorText>
                 </Box>
-                <Box>
-                    <BigColorText>Gift Cards</BigColorText>
-                </Box>
+
                 <Box>
                     <IconBox>
                         <Circle >
