@@ -134,6 +134,7 @@ const Nav = () => {
                     <Bottom>Family Restaurant</Bottom>
                 </BottomRowLeft>
                 <BottomRowRight>
+                <StyledLinkSmall to="/">Home</StyledLinkSmall>
                     <StyledLinkSmall to="/menus">Menus</StyledLinkSmall>
                     <StyledLinkSmall to="/reviews">Reviews</StyledLinkSmall>
                 </BottomRowRight>
