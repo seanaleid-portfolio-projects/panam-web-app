@@ -182,6 +182,155 @@ const MainMenu = () => {
                 </BoxBottom>
             </SectionBox>
 
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Gyro and Souvlaki</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>*Chicken, Pork, or Gyro Platter</BottomTextItem>
+                    <BottomTextDescription>Choice of marinated Chicken, Pork tenderloin, or Seasoned Gyro with a side Greek Salad, French Fries and Pita Bread</BottomTextDescription>
+
+                    <BottomTextItem>*Chicken, Pork, or Gyro Sandwich</BottomTextItem>
+                    <BottomTextDescription>Choice of marinated Chicken, Pork tenderloin or Seasoned Gyro. Topped with Lettuce, Tomato, Onion, Feta Cheese, and Tzagiki Sauce</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Sandwiches</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>B.L.T.</BottomTextItem>
+                    <BottomTextDescription>Bacon, Lettuce and Tomato Sandwich served with Chips</BottomTextDescription>
+
+                    <BottomTextItem>Triple Decker Club</BottomTextItem>
+                    <BottomTextDescription>Bacon, Turkey, Cheese, Lettuce, Tomato, Mayonnaise Served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>*Grilled Chicken Sandwich</BottomTextItem>
+                    <BottomTextDescription>Grilled Chicken, Lettuce, Tomato, Mayonnaise Served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Reuben</BottomTextItem>
+                    <BottomTextDescription>Corned Beef, Sauerkraut, Swiss Cheese on Rye served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Corned Beef or Pastrami Sandwich</BottomTextItem>
+                    <BottomTextDescription>Choice of Pastrami or Corned Beef, Topped with Swiss Cheese on Rye served with French Fries</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Burgers</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>*Hamburger Platter</BottomTextItem>
+                    <BottomTextDescription>1/2 lb Angus Beef Burger, Topped with Lettuce, Tomato and Mayonnaise served with French Fries</BottomTextDescription>
+                    <BottomTextDescription>+Add on: Bacon</BottomTextDescription>
+
+                    <BottomTextItem>*Cheeseburger Platter</BottomTextItem>
+                    <BottomTextDescription>1/2 lb Angus Beef Burger, Topped with Lettuce, Tomato and Mayonnaise and Choice of Cheese(American, Provolone, Swiss, Crumbled Blue cheese, or Feta) served with French Fries</BottomTextDescription>
+                    <BottomTextDescription>+Add on: Bacon</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Subs</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Turkey & Cheese</BottomTextItem>
+                    <BottomTextDescription>Turkey, Provolone, Lettuce, Tomato and Mayonnaise served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Ham and Cheese</BottomTextItem>
+                    <BottomTextDescription>Ham, Lettuce, Tomato, Provolone and Mayonnaise served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Chicken or Tuna Salad</BottomTextItem>
+                    <BottomTextDescription>Provolone, Lettuce, Tomato and Mayonnaise served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Italian Cold Cut</BottomTextItem>
+                    <BottomTextDescription>Ham, Salami, Mortadella, Provolone, Lettuce, Tomato, Onions and Vinaigrette served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>*Steak and Cheese</BottomTextItem>
+                    <BottomTextDescription>Provolone, Lettuce, Tomato, Grilled Onions and Mayonnaise served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>*Hot Italian Subs</BottomTextItem>
+                    <BottomTextDescription>Choice of Meatball, Italian Sausage, Veal Parmesan, or Chicken Parmesan served on a Toasted Sub Topped with Provolone and Marinara served with French Fries</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Pan Am Favorites</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Pan Am Stuffed Cabbage</BottomTextItem>
+                    <BottomTextDescription>Ground Beef and Rice stuffed in Cabbage, Topped with Marinara served with the Vegetable of the day</BottomTextDescription>
+
+                    <BottomTextItem>Moussaka</BottomTextItem>
+                    <BottomTextDescription>Layered Ground Beef, Potato, Eggplant and Bechamel Sauce, served with the Vegetable of the Day</BottomTextDescription>
+
+                    <BottomTextItem>Pasticio</BottomTextItem>
+                    <BottomTextDescription>Ziti, Ground Beef, topped with Bechamel Sauce and Marinara, served with the Vegetable of the day</BottomTextDescription>
+
+                    <BottomTextItem>*Chopped Sirloin Steak</BottomTextItem>
+                    <BottomTextDescription>Ground Sirloin, TOpped with Grilled Onions and served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Chicken Kabob</BottomTextItem>
+                    <BottomTextDescription>Pan Am's Variation of Chicken Kabob with Grilled Tomatoes, Onions, Green peppers with a side of Rice and Gravy</BottomTextDescription>
+
+                    <BottomTextItem>*Fish and Chips</BottomTextItem>
+                    <BottomTextDescription>Beer Battered Cod, served with French Fries and a side of tartar Sauce</BottomTextDescription>
+
+                    <BottomTextItem>*Fried Shrimp</BottomTextItem>
+                    <BottomTextDescription>Breaded in House SHrimp, served with French Fries and a Side of Cocktail Sauce</BottomTextDescription>
+
+                    <BottomTextItem>*Fried Scallops</BottomTextItem>
+                    <BottomTextDescription>Breaded in House Scallops, served with French Fries and a Side of Cocktail Sauce</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Pasta</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Spaghetti</BottomTextItem>
+                    <BottomTextDescription>Topped with your Choice of our Homemade Marinara or Meat Sauce</BottomTextDescription>
+
+                    <BottomTextItem>Spaghetti Meatballs or Italian Sausage</BottomTextItem>
+                    <BottomTextDescription>Choice of Meatballs ot Italian Sausage Topped with our homemade Marinara</BottomTextDescription>
+
+                    <BottomTextItem>Baked Ziti</BottomTextItem>
+                    <BottomTextDescription>Ziti and Meat Sauce Topped with Mozzarella and Baked</BottomTextDescription>
+
+                    <BottomTextItem>*Chicken Parmesan</BottomTextItem>
+                    <BottomTextDescription>Served with Spaghetti Topped with Marinara</BottomTextDescription>
+
+                    <BottomTextItem>*Veal Parmesan</BottomTextItem>
+                    <BottomTextDescription>Served with Spaghetti Topped with Marinara</BottomTextDescription>
+
+                    <BottomTextItem>Eggplant Parmesan</BottomTextItem>
+                    <BottomTextDescription>Served with Spaghetti Topped with Marinara</BottomTextDescription>
+
+                    <BottomTextItem>Lasagna</BottomTextItem>
+                    <BottomTextDescription>Homemade Lasagna with Beef, Ricotta Cheese, Mozzarella Cheese and Parmesan Cheese</BottomTextDescription>
+
+                    <BottomTextItem>Manicotti</BottomTextItem>
+                    <BottomTextDescription>Pasta sleeves stuffed with Ricotta Cheese, topped with marinara and Mozzarella Cheese and Baked</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
             <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These items are cooked to customer preference.</BottomTextDescription>
 
             <MenuContainer>
