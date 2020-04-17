@@ -92,7 +92,6 @@ const MainMenu = styled.div`
     align-items: center;
 `;
 
-
 const Bar = styled.h2`
     background-color: rgba(38, 106, 216, 1);
     width: 100%;
@@ -111,22 +110,22 @@ const BreakfastMenu = () => {
                 </BoxTop>
                 <BoxBottom>
                     
-                    <BottomTextItem>Cheese Omelet*</BottomTextItem>
+                    <BottomTextItem>*Cheese Omelet</BottomTextItem>
                     <BottomTextDescription>Choice of cheese: American, Provolone, Swiss, Feta, or Mozzarella, served with Home Fries and choice of Toast</BottomTextDescription>
 
-                    <BottomTextItem>Mushroom and Cheese Omelet*</BottomTextItem>
+                    <BottomTextItem>*Mushroom and Cheese Omelet</BottomTextItem>
                     <BottomTextDescription>Mushroom and American cheese, served with Home Fries and choice of Toast</BottomTextDescription>
 
-                    <BottomTextItem>Ham and Cheese Omelet*</BottomTextItem>
+                    <BottomTextItem>*Ham and Cheese Omelet</BottomTextItem>
                     <BottomTextDescription>Ham and American cheese, served with Home Fries and choice of Toast</BottomTextDescription>
 
-                    <BottomTextItem>Western Omelet*</BottomTextItem>
+                    <BottomTextItem>*Western Omelet</BottomTextItem>
                     <BottomTextDescription>Ham, green peppers, onions, and American cheese, served with Home Fries and choice of Toast</BottomTextDescription>
 
-                    <BottomTextItem>Spinach and Feta Omelet*</BottomTextItem>
+                    <BottomTextItem>*Spinach and Feta Omelet</BottomTextItem>
                     <BottomTextDescription>Spinach and feta cheese, served with Home Fries and choice of Toast</BottomTextDescription>
 
-                    <BottomTextItem>The Pan Am Omelet*</BottomTextItem>
+                    <BottomTextItem>*The Pan Am Omelet</BottomTextItem>
                     <BottomTextDescription>Tomato, onion, and feta cheese, served with Home Fries and choice of Toast</BottomTextDescription>
 
                 </BoxBottom>
@@ -177,13 +176,13 @@ const BreakfastMenu = () => {
                     <BottomTextItem>Creamed Chip Beef</BottomTextItem>
                     <BottomTextDescription>Over Toast, served with Home Fries</BottomTextDescription>
 
-                    <BottomTextItem>Corned Beef Hash and Eggs*</BottomTextItem>
+                    <BottomTextItem>*Corned Beef Hash and Eggs</BottomTextItem>
                     <BottomTextDescription>With Two Eggs any style, Toast and Home Fries</BottomTextDescription>
 
-                    <BottomTextItem>Eggs Benedict*</BottomTextItem>
+                    <BottomTextItem>*Eggs Benedict</BottomTextItem>
                     <BottomTextDescription>Poached Eggs, Canadian Bacon over English Muffin topped with Hollandaise Sauce and Home Fries</BottomTextDescription>
 
-                    <BottomTextItem>Country Ham and Eggs*</BottomTextItem>
+                    <BottomTextItem>*Country Ham and Eggs</BottomTextItem>
                     <BottomTextDescription>Served with Two Eggs any Style, Toast and Home Fries</BottomTextDescription>
 
                 </BoxBottom>
@@ -206,7 +205,7 @@ const BreakfastMenu = () => {
                 </BoxBottom>
             </SectionBox>
             
-            <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These Descriptions are cooked to customer preference.</BottomTextDescription>
+            <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These items are cooked to customer preference.</BottomTextDescription>
 
             <MenuContainer>
                 <StyledLinkSmall to="/menus" title='Go back to the menus page.'>
@@ -215,10 +214,10 @@ const BreakfastMenu = () => {
                     </MenusPic>
                 </StyledLinkSmall>
                 <StyledLinkSmall to="/main-menu" title='Check out the main menu.'>
-                <MainMenu alt="A sliced pizza on a plate.">
-                    <Bar>Main Menu</Bar>
-                </MainMenu>
-            </StyledLinkSmall>
+                    <MainMenu alt="A sliced pizza on a plate.">
+                        <Bar>Main Menu</Bar>
+                    </MainMenu>
+                </StyledLinkSmall>
             </MenuContainer>
         </Container>
     )
