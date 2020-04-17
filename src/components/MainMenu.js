@@ -331,6 +331,127 @@ const MainMenu = () => {
                 </BoxBottom>
             </SectionBox>
 
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Homemade Pizza</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Small 12" | Medium 14" | Large 16"</BottomTextItem>
+                    <BottomTextDescription>Cheese</BottomTextDescription>
+                    <BottomTextDescription>One Topping</BottomTextDescription>
+                    <BottomTextDescription>Two Toppings</BottomTextDescription>
+                    <BottomTextDescription>Three Toppings</BottomTextDescription>
+                    <BottomTextDescription>Four Toppings</BottomTextDescription>
+                    <BottomTextDescription>Five Toppings or House Special</BottomTextDescription>
+
+                    <BottomTextItem>Meat Toppings</BottomTextItem>
+                    <BottomTextDescription>Peperoni, Sausage, Ground Beef, Bacon, Meatball, Ham, Salami, Gyro Meat, Anchovies</BottomTextDescription>
+
+                    <BottomTextItem>Vegetable Toppings</BottomTextItem>
+                    <BottomTextDescription>Green Pepper, Onions, Mushrooms, Tomatoes, Black Olives, Spinach, Pineapple, Jalapeno</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Children's Menu</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Grilled Cheese</BottomTextItem>
+                    <BottomTextDescription>Grilled Cheese Sandwich served with French Fries</BottomTextDescription>
+
+                    <BottomTextItem>Spaghetti with Meatball</BottomTextItem>
+                    <BottomTextDescription>Spaghetti with Meatball Topped with Marinara</BottomTextDescription>
+
+                    <BottomTextItem>Lasagna</BottomTextItem>
+
+                    <BottomTextItem>*Fish and Chips</BottomTextItem>
+                    
+                    <BottomTextItem>*Chicken Nuggets</BottomTextItem>
+                    <BottomTextDescription>Served with French Fries</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Sides</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>French Fries</BottomTextItem>
+
+                    <BottomTextItem>Onion Rings</BottomTextItem>
+
+                    <BottomTextItem>Rice</BottomTextItem>
+                    <BottomTextDescription>Topped with Gravy</BottomTextDescription>
+
+                    <BottomTextItem>Mashed Potatoes</BottomTextItem>
+                    <BottomTextDescription>Topped with Gravy</BottomTextDescription>
+                    
+                    <BottomTextItem>Vegetable of the Day</BottomTextItem>
+                    
+                    <BottomTextItem>Coleslaw</BottomTextItem>
+
+                    <BottomTextItem>Potato Salad</BottomTextItem>
+
+                    <BottomTextItem>House Salad</BottomTextItem>
+                    <BottomTextDescription>Lettuce, Tomato, Cucumber and your Choice of Dressing</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Desserts</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Rice Pudding</BottomTextItem>
+                    <BottomTextDescription>Homemade Rice Pudding</BottomTextDescription>
+
+                    <BottomTextItem>Pies</BottomTextItem>
+                    <BottomTextDescription>Ask for available Pies</BottomTextDescription>
+
+                    <BottomTextItem>Cakes</BottomTextItem>
+                    <BottomTextDescription>Ask for available Cakes</BottomTextDescription>
+
+                    <BottomTextItem>Cheesecake</BottomTextItem>
+                    <BottomTextDescription>Homemade Cheesecake</BottomTextDescription>
+                    
+                    <BottomTextItem>Galaktoburiko</BottomTextItem>
+                    <BottomTextDescription>Homemade Greek Custard</BottomTextDescription>
+
+                    <BottomTextItem>Baklava</BottomTextItem>
+                    <BottomTextDescription>Homemade Baklava</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
+            <SectionBox>
+                <BoxTop>
+                    <TopText>Beverages</TopText>
+                </BoxTop>
+                <BoxBottom>
+                    
+                    <BottomTextItem>Juice</BottomTextItem>
+                    <BottomTextDescription>Small or Large Apple, Orange, Cranberry, Grapefruit, or Tomato</BottomTextDescription>
+                    
+                    <BottomTextItem>Milk</BottomTextItem>
+                    <BottomTextDescription>Regular Whole Milk or Chocolate Milk</BottomTextDescription>
+
+                    <BottomTextItem>Hot Beverages</BottomTextItem>
+                    <BottomTextDescription>Regular / Decaffeinated Coffee or Hot Tea</BottomTextDescription>
+
+                    <BottomTextDescription>Hot Chocolate</BottomTextDescription>
+                    <BottomTextDescription>Topped with Whipped Cream</BottomTextDescription>
+
+                </BoxBottom>
+            </SectionBox>
+
             <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These items are cooked to customer preference.</BottomTextDescription>
 
             <MenuContainer>
