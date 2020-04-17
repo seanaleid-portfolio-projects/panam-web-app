@@ -1,6 +1,7 @@
 import React from "react";
 
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
     display: flex;
@@ -13,7 +14,7 @@ const SectionBox = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(38, 106, 216, 1);
+    border: 3px solid rgba(38, 106, 216, 1);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 `;
@@ -54,6 +55,51 @@ const BottomTextDescription = styled.h4`
     margin-bottom: 1rem;
 `;
 
+const MenuContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    width: 80%;
+`;
+
+const StyledLinkSmall = styled(Link)`
+    text-decoration: none;
+    color: rgba(46, 49, 49, 1);
+    border: 3px solid rgba(38, 106, 216, 1);
+    margin: 2rem;
+`;
+
+const MenusPic = styled.div`
+    background: url('https://images.pexels.com/photos/313700/pexels-photo-313700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center; 
+`;
+
+const MainMenu = styled.div`
+    background: url('https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+`;
+
+
+const Bar = styled.h2`
+    background-color: rgba(38, 106, 216, 1);
+    width: 100%;
+    height: 2.5rem;
+    font-size: 2rem;
+    color: rgba(236, 236, 236, 1);
+`;
 
 const BreakfastMenu = () => {
     return (
@@ -161,6 +207,19 @@ const BreakfastMenu = () => {
             </SectionBox>
             
             <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These Descriptions are cooked to customer preference.</BottomTextDescription>
+
+            <MenuContainer>
+                <StyledLinkSmall to="/menus" title='Go back to the menus page.'>
+                    <MenusPic alt="A paper menu over a white table cloth.">
+                        <Bar>Menus</Bar>
+                    </MenusPic>
+                </StyledLinkSmall>
+                <StyledLinkSmall to="/main-menu" title='Check out the main menu.'>
+                <MainMenu alt="A sliced pizza on a plate.">
+                    <Bar>Main Menu</Bar>
+                </MainMenu>
+            </StyledLinkSmall>
+            </MenuContainer>
         </Container>
     )
 }
