@@ -10,6 +10,8 @@ const Container = styled.div`
 
 const BreakfastMenu = styled.div`
     background: url('https://images.unsplash.com/photo-1475566718667-b6fe2e251c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    width: 20rem;
+    height: 20rem;
 `;
 
 const Bar = styled.h2`
