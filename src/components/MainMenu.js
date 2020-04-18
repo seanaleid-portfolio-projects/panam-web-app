@@ -446,8 +446,18 @@ const MainMenu = () => {
                     <BottomTextItem>Hot Beverages</BottomTextItem>
                     <BottomTextDescription>Regular / Decaffeinated Coffee or Hot Tea</BottomTextDescription>
 
-                    <BottomTextDescription>Hot Chocolate</BottomTextDescription>
-                    <BottomTextDescription>Topped with Whipped Cream</BottomTextDescription>
+                    <BottomTextDescription>Hot Chocolate - Topped with Whipped Cream</BottomTextDescription>
+                    
+                    <BottomTextItem>Sodas</BottomTextItem>
+                    <BottomTextDescription>Coke, Diet Coke, Sprite, Ginger Ale, Pink Lemonade, Birch Beer, Unsweetened Iced Tea </BottomTextDescription>
+
+                    <BottomTextItem>Beer</BottomTextItem>
+                    <BottomTextDescription>Draft, Bottle, Pitcher</BottomTextDescription>
+                    <BottomTextDescription>Domestic or Import </BottomTextDescription>
+
+                    <BottomTextItem>Wine</BottomTextItem>
+                    <BottomTextDescription>Half or Full Carafe</BottomTextDescription>
+                    <BottomTextDescription>Chablis, Burgundy, Retsina, White Zinfandel, Chianti, Merlot, Chardonnay, Pinot Grigio</BottomTextDescription>
 
                 </BoxBottom>
             </SectionBox>
