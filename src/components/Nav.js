@@ -57,6 +57,7 @@ const Circle = styled.div`
 const Background = styled.div`
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     background-image: url('https://images.unsplash.com/photo-1531914082256-1b9047242426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
     background-position: center; 
     background-repeat: no-repeat; 
@@ -65,7 +66,18 @@ const Background = styled.div`
     height: 50vh;
 `;
 
-const BottomRowLeft = styled.div`
+const TopRow = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+
+const BottomRow = styled.div`
+    display: flex;
+    justify-content: space-between;
+    color: rgba(236, 236, 236, 1);
+`;
+
+const TopRowLeft = styled.div`
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -73,7 +85,7 @@ const BottomRowLeft = styled.div`
     margin-top: 0;
 `;
 
-const BottomRowRight = styled.div`
+const TopRowRight = styled.div`
     display: flex;
     align-items: baseline;
     margin-right: 2rem;
@@ -127,17 +139,22 @@ const Nav = () => {
                 </Right>
             </Bar>
             <Background>
-                <BottomRowLeft>
-                    <Panam>
-                        <StyledLinkBig to="/">PANAM</StyledLinkBig>
-                    </Panam>
-                    <Bottom>Family Restaurant</Bottom>
-                </BottomRowLeft>
-                <BottomRowRight>
-                <StyledLinkSmall to="/">Home</StyledLinkSmall>
-                    <StyledLinkSmall to="/menus">Menus</StyledLinkSmall>
-                    <StyledLinkSmall to="/reviews">Reviews</StyledLinkSmall>
-                </BottomRowRight>
+                <TopRow>
+                    <TopRowLeft>
+                        <Panam>
+                            <StyledLinkBig to="/">PANAM</StyledLinkBig>
+                        </Panam>
+                        <Bottom>Family Restaurant</Bottom>
+                    </TopRowLeft>
+                    <TopRowRight>
+                        <StyledLinkSmall to="/">Home</StyledLinkSmall>
+                        <StyledLinkSmall to="/menus">Menus</StyledLinkSmall>
+                        <StyledLinkSmall to="/reviews">Reviews</StyledLinkSmall>
+                    </TopRowRight>
+                </TopRow>
+                <BottomRow>
+                    <h4>This is a test!</h4>
+                </BottomRow>
             </Background>
         </div>
     )
