@@ -7,7 +7,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 `;
 
@@ -60,7 +60,6 @@ const MenuContainer = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2rem;
     width: 80%;
 `;
 

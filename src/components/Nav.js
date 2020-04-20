@@ -86,8 +86,11 @@ const TopRowLeft = styled.div`
 `;
 
 const TopRowRight = styled.div`
+    width: 30%;
+    height: 25%;
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 2rem;
     margin-right: 2rem;
     text-decoration: none;
 `;
@@ -115,7 +118,14 @@ const StyledLinkBig = styled(Link)`
 
 const StyledLinkSmall = styled(Link)`
     text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
     color: rgba(236, 236, 236, 1);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    :hover {
+        background-color: rgba(38, 106, 216, 1);
+    }
 `;
 
 const NavHeader = styled.h1`
