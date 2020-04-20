@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 import Phone from "../icons/Phone.js";
@@ -73,7 +73,7 @@ const TopRow = styled.div`
 
 const BottomRow = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: rgba(236, 236, 236, 1);
 `;
 
@@ -118,7 +118,29 @@ const StyledLinkSmall = styled(Link)`
     color: rgba(236, 236, 236, 1);
 `;
 
+const NavHeader = styled.h1`
+    font-size: 2.5rem;
+`;
+
 const Nav = () => {
+
+    const path = useLocation();
+    const url = Array.from(path.pathname).join('');
+    
+    const header = () => {
+        if(url.includes('main-menu')) {
+            return 'MAIN MENU'
+        } else if (url.includes('menus')) {
+            return 'MENUS'
+        } else if (url.includes('breakfast-menu')) {
+            return 'BREAKFAST MENU'
+        } else if (url.includes('reviews')){
+            return 'REVIEWS'
+        } else {
+            return 'HOME';
+        }
+    }
+
     return (
         <div>
             <Bar>
@@ -153,7 +175,7 @@ const Nav = () => {
                     </TopRowRight>
                 </TopRow>
                 <BottomRow>
-                    <h4>This is a test!</h4>
+                    <NavHeader>{header()}</NavHeader>
                 </BottomRow>
             </Background>
         </div>

@@ -7,6 +7,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 `;
 
@@ -103,7 +104,20 @@ const Bar = styled.h2`
 const MainMenu = () => {
     return (
         <Container>
-            <h1>Main Menu</h1>
+
+            <MenuContainer>
+                <StyledLinkSmall to="/menus" title='Go back to the menus page.'>
+                    <MenusPic alt="A paper menu over a white table cloth.">
+                        <Bar>Menus</Bar>
+                    </MenusPic>
+                </StyledLinkSmall>
+                <StyledLinkSmall to="/breakfast-menu" title='Check out the breakfast menu.'>
+                    <BreakfastMenu alt="A coffee, pastry, and glass of water on the table.">
+                        <Bar>Breakfast Menu</Bar>
+                    </BreakfastMenu>
+                </StyledLinkSmall>
+            </MenuContainer>
+
             <SectionBox>
                 <BoxTop>
                     <TopText>Appetizers</TopText>
@@ -464,18 +478,7 @@ const MainMenu = () => {
 
             <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These items are cooked to customer preference.</BottomTextDescription>
 
-            <MenuContainer>
-                <StyledLinkSmall to="/menus" title='Go back to the menus page.'>
-                    <MenusPic alt="A paper menu over a white table cloth.">
-                        <Bar>Menus</Bar>
-                    </MenusPic>
-                </StyledLinkSmall>
-                <StyledLinkSmall to="/breakfast-menu" title='Check out the breakfast menu.'>
-                    <BreakfastMenu alt="A coffee, pastry, and glass of water on the table.">
-                        <Bar>Breakfast Menu</Bar>
-                    </BreakfastMenu>
-                </StyledLinkSmall>
-            </MenuContainer>
+           
 
         </Container>
     )

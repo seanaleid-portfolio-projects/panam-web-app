@@ -7,6 +7,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 `;
 
@@ -103,7 +104,6 @@ const Bar = styled.h2`
 const BreakfastMenu = () => {
     return (
         <Container>
-            <h1>Breakfast Menu</h1>
             <SectionBox>
                 <BoxTop>
                     <TopText>Omelets</TopText>
