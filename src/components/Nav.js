@@ -167,7 +167,7 @@ const Nav = () => {
         if (day === 0){
             return 'Open today 9am - 8pm'
         } else if (day === 1 || 2 || 3) {
-            return 'Open today 9am - 8pm'
+            return 'Open today 11am - 8pm'
         } else if (day === 4 || 5) {
             return 'Open today 11am - 9pm'
         } else if (day === 6){

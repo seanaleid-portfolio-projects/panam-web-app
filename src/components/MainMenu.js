@@ -477,8 +477,6 @@ const MainMenu = () => {
 
             <BottomTextDescription>*Consuming raw or undercooked Meats, Poultry, Seafood, Shellfish, Eggs, or Caesar salad may increase your risk of food born illness. These items are cooked to customer preference.</BottomTextDescription>
 
-           
-
         </Container>
     )
 }
