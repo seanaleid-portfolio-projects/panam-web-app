@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const SectionBox = styled.div`
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     border: 3px solid rgba(38, 106, 216, 1);

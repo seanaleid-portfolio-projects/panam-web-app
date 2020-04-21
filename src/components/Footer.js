@@ -92,8 +92,8 @@ const IconBox = styled.div`
 const Circle = styled.div`
     display: flex;
     align-items: center;
-    margin: 0.8rem;
-    padding: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 2rem;
     background-color:rgba(38, 106, 216, 0.5);
     :hover {
@@ -113,7 +113,7 @@ const Footer = () => {
                 </Form>
             </Top>
             <Bottom>
-                <Box>
+                <Box id="times">
                     <BigColorText>Hours</BigColorText>
                     <SmallColorText>Monday - Wednesday 11am - 8pm</SmallColorText>
                     <SmallColorText>Thursday - Friday 11am - 9pm</SmallColorText>

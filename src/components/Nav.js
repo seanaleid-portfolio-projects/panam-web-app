@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import Phone from "../icons/Phone.js";
 import Home from "../icons/Home.js";
+import Clock from "../icons/Clock.js";
 import Facebook from "../icons/Facebook.js";
 import Envelope from "../icons/Envelope.js";
 
@@ -33,21 +34,30 @@ const ATag = styled.a`
 const Text = styled.h4`
     margin-left: 1rem;
     margin-right: 1rem;
+    padding: 0.4rem;
     justify-content: inherit;
     color: rgba(236, 236, 236, 1);
     :hover {
-        color: rgba(38, 106, 216, 1);
-        text-shadow: 0.1rem 0.1rem 0.2rem rgba(236, 236, 236, 0.5);
+        background-color: rgba(38, 106, 216, 1);
+        border-radius: 1rem;
+        padding: 0.4rem;
     }
+`;
+
+const RegularText = styled.h4`
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    justify-content: inherit;
+    color: rgba(236, 236, 236, 1);
 `;
 
 const Circle = styled.div`
     display: flex;
     align-items: center;
-    margin: 0.8rem;
-    padding: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 2rem;
-    background-color:rgba(38, 106, 216, 0.5);
     :hover {
         background-color:rgba(38, 106, 216, 1);
         
@@ -136,6 +146,8 @@ const Nav = () => {
 
     const path = useLocation();
     const url = Array.from(path.pathname).join('');
+    const date = new Date();
+    const day = date.getDay();
     
     const header = () => {
         if(url.includes('main-menu')) {
@@ -151,13 +163,28 @@ const Nav = () => {
         }
     }
 
+    const schedule = () => {
+        if (day === 0){
+            return 'Open today 9am - 8pm'
+        } else if (day === 1 || 2 || 3) {
+            return 'Open today 9am - 8pm'
+        } else if (day === 4 || 5) {
+            return 'Open today 11am - 9pm'
+        } else if (day === 6){
+            return 'Open today 9am - 9pm'
+        }
+    }
+
     return (
         <div>
             <Bar>
                 <Left>
+                    <Clock />
+                    <RegularText>{schedule()} </RegularText>
+                    <RegularText> | </RegularText>
                     <Home />
                     <ATag href='https://www.google.com/maps/place/3051+Nutley+St,+Fairfax,+VA+22031/@38.8707361,-77.263134,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64b8a8b8d7f89:0xc7c7246eebcb198f!8m2!3d38.8707361!4d-77.2609453' target='_blank' rel="noopener noreferrer"  title='View on Google Maps'><Text>3051 Nutley St, Fairfax, VA 22031</Text></ATag>
-                    <Text> | </Text>
+                    <RegularText> | </RegularText>
                     <Phone />
                     <ATag href='tel:+1-703-560-9322' title='Give us a call!'><Text>(703) 560-9322</Text></ATag>
                 </Left>
