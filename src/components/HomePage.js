@@ -2,20 +2,31 @@ import React from "react";
 
 import styled from "styled-components";
 
+import Menus from "./Menus.js";
+
 const Background = styled.div`
-  background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://images.pexels.com/photos/1660030/pexels-photo-1660030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
 `;
 
-const Text = styled.h1`
-  color: rgba(46, 49, 49, 1);
+const Span = styled.span`
+  background-color: rgba(46, 49, 49, 0.3);
+  width: 50%;
+  height: 100%;
 `;
 
 const HomePage = () => {
     return (
         <div>
+            <Menus />
             <Background>
-                <Text>This is a test</Text>
-                <Text>Hello from the home page!</Text>
+                <Span>This is a test</Span>
             </Background>
         </div>
     )

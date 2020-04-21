@@ -140,7 +140,6 @@ const Footer = () => {
                     <SmallColorText>All rights reserved.</SmallColorText>
                     
                     <SmallColorText>Icons by <Tag href='https://fontawesome.com/' title="Visit Font Awesome's website">Font Awesome</Tag> and <Tag href='https://fontawesome.com/license' title="Visit Font Awesome's license page">license used.</Tag></SmallColorText>
-                    <SmallColorText>Website by <Tag href='https://www.seanaleid.com/' title="Visit Sean Naleid's portfolio">Sean Naleid</Tag></SmallColorText>
                 </Box>
             </Bottom>
         </Container>
