@@ -25,9 +25,9 @@ const HomePage = () => {
     return (
         <div>
             <Menus />
-            <Background>
+            {/* <Background>
                 <Span>This is a test</Span>
-            </Background>
+            </Background> */}
         </div>
     )
 }
