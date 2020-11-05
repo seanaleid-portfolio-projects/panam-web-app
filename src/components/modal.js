@@ -19,10 +19,9 @@ function getModalStyle() {
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    position: "absolute",
+    position: "fixed",
     top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
+    transform: "translateY(50%)",
     width: "500px",
     height: "800px",
     backgroundColor: "#2E3131",

@@ -71,7 +71,7 @@ const Background = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50vh;
+  height: 30vh;
 `;
 
 const TopRow = styled.div`
