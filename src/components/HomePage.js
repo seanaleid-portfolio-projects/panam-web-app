@@ -1,9 +1,9 @@
 import React from "react";
-
 import Menus from "./Menus.js";
-// import SimpleModal from "./modal.js";
-
 import styled from "styled-components";
+
+// SEO
+import SEO from "../SEO";
 
 const Box = styled.div`
   margin-top: "2rem";
@@ -11,10 +11,17 @@ const Box = styled.div`
 
 const HomePage = () => {
   return (
-    <Box>
-      {/* <SimpleModal /> */}
-      <Menus />
-    </Box>
+    <>
+      <SEO
+        title="PanAm Family Restaurant - Family Style Greek Cuisine"
+        description="Enjoy our cuisine in a family style restaurant."
+        profileURL={"https://www.panamfamrest.com/"}
+      />
+      <Box>
+        {/* <SimpleModal /> */}
+        <Menus />
+      </Box>
+    </>
   );
 };
 

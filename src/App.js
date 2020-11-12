@@ -33,7 +33,6 @@ function App() {
       <Route path="/breakfast-menu">
         <BreakfastMenu />
       </Route>
-      <Route path="/thanksgiving"></Route>
       <Footer />
     </div>
   );
