@@ -15,14 +15,14 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^4.0.0",
-    "sitemap": "^6.3.3",
     "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run sitemap && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node ./src/sitemap/generator.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +38,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "sitemap": "^6.3.3"
   }
 }
