@@ -19,7 +19,7 @@ function getModalStyle() {
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    position: "fixed",
+    position: "relative",
     top: "50%",
     transform: "translateY(50%)",
     width: "500px",
@@ -35,7 +35,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "2rem",
   },
   holiday: {
-    backgroundImage: "url('https://i.ibb.co/Jn9VMK6/pan-am-thanksgiving.jpg')",
+    backgroundImage:
+      "url('https://kobalt-pics.s3.amazonaws.com/pan_am_thanksgiving.jpg')",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -81,7 +82,7 @@ export default function SimpleModal() {
   const body = (
     <div style={modalStyle} className={classes.paper}>
       <a
-        href="https://i.ibb.co/Jn9VMK6/pan-am-thanksgiving.jpg"
+        href="https://kobalt-pics.s3.amazonaws.com/panam_thanksgiving.pdf"
         className={classes.link}
       >
         See Larger Menu
