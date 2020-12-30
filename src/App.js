@@ -10,7 +10,7 @@ import BreakfastMenu from "./components/BreakfastMenu.js";
 import MainMenu from "./components/MainMenu.js";
 import Reviews from "./components/Reviews.js";
 import Footer from "./components/Footer.js";
-import SimpleModal from "./components/modal.js";
+// import SimpleModal from "./components/modal.js";
 
 import { Route } from "react-router-dom";
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <SimpleModal />
+      {/* <SimpleModal /> */}
       <Route exact path="/">
         <HomePage />
       </Route>
